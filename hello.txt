@@ -1,0 +1,9 @@
+<h1 style='color:orange'>Hello Golang</h1>
+<h2>How are you</h2>
+<img id='i1' src='https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D500/sign=b6db133fcecec3fd8f3ea775e689d4b6/aa64034f78f0f736a00aa2f20755b319eac41348.jpg'>
+<button id='b1'>点我</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src = 'https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/h%3D250/sign=44a7e8186cd0f703f9b292d938fb5148/b3119313b07eca80ab8c87e89f2397dda1448330.jpg'
+}
+</script>
